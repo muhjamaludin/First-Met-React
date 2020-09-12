@@ -1,3 +1,6 @@
+## First Met React from Ud by Inje Lee
+<h3>This is trying and note some learning</h3>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
