@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const formatName = (name) => {
+  return name.firstName + " " + name.lastname
+}
+
+const name={
+  firstName: "Muh",
+  lastname: "Jamaludin"
+}
+
+const element = <h1>Hello, {formatName(name)} !</h1>
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  element,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
