@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Chapter06 from './Chapter06'
+import LoginControl from './Chapter07/LoginControl'
 
-ReactDOM.render(<Chapter06/>, document.getElementById('root'))
+// ReactDOM.render(<Chapter06/>, document.getElementById('root'))
+ReactDOM.render(<LoginControl />, document.getElementById('root'))
 
 // ReactDOM.render(
 //   <React.StrictMode>
